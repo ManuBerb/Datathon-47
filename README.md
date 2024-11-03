@@ -21,3 +21,5 @@ Les analystes financiers traitent des volumes importants de données et de rappo
 1) Simplification des Analyses : Une solution basée sur l’IA générative capable de simplifier les analyses pour les analystes financiers.
 2) Insights Clairs et Exploitables : Fournir des informations claires et actionnables pour faciliter la prise de décision.
 3) Efficacité Améliorée : Réduire le temps nécessaire pour traiter et analyser les données financières.
+
+[Notre environnement de developpement est Cloud9]
