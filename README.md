@@ -41,7 +41,7 @@ Retrieval Augmented Generation (RAG):
 #### Bedrock Studio 
 Helps ease the developpement of solutions
 
-
+hello
 
 
 
