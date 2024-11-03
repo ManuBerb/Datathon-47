@@ -33,5 +33,18 @@ On va utiliser Amazon Bedrock to build LLMs - build n scale genAI apps:
 Retrieval Augmented Generation (RAG): 
 --> We connect to a database and on that database we get for example information on a company - we pair that by using the already existent intelligence in the LLM + the specific information we give him to get more precise answers
 
-While using a model always keep the "temperature" of the model at 0 for data analysis because we only want facts no creativity
+### Working with Amazon Bedrock:
+1) Temperature: While using a model always keep the "temperature" of the model at 0 for data analysis because we only want facts no creativity
+2) Top K & TopP: Top-k and Top-p are techniques used in the sampling process of language models to control the randomness and quality of generated text. These methods help in managing the balance between diversity and coherence in generated outputs.
+   --> In Top-k sampling, the model limits the pool of candidate tokens to only the top k most probable tokens and samples from this reduced set. The other tokens are disregarded, even if they have non-zero probabilities. Standardized at 250.
+   --> Top-p sampling, also known as nucleus sampling, considers the smallest possible set of tokens whose cumulative probability exceeds a threshold p. Instead of a fixed number of tokens, the set's size can vary dynamically based on the distribution. If p is set to 0.9, the model includes tokens until their cumulative probability sum reaches 90%, regardless of how many tokens that may include. Standardized at 250 0.99.
+#### Bedrock Studio 
+Helps ease the developpement of solutions
+
+
+
+
+
+
+
 
