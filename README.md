@@ -22,4 +22,13 @@ Les analystes financiers traitent des volumes importants de données et de rappo
 2) Insights Clairs et Exploitables : Fournir des informations claires et actionnables pour faciliter la prise de décision.
 3) Efficacité Améliorée : Réduire le temps nécessaire pour traiter et analyser les données financières.
 
+
 [Notre environnement de developpement est Cloud9]
+On va utiliser Amazon Bedrock to build LLMs - build n scale genAI apps: 
+--> Guardrails (only answers one type of answer) 
+--> Agents (to access outside the LLM): Agents can execute multistep tasks , basically it can touch other system to do an action
+--> Studio (To create agents and chatbots easiear)
+--> Customization, Custom Model Imports, Amazon Models (Create and customize out own LLMs)
+
+Retrieval Augmented Generation (RAG): 
+--> We connect to a database and on that database we get for example information on a company - we pair that by using the already existent intelligence in the LLM + the specific information we give him to get more precise answers
