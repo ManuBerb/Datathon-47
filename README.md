@@ -32,3 +32,6 @@ On va utiliser Amazon Bedrock to build LLMs - build n scale genAI apps:
 
 Retrieval Augmented Generation (RAG): 
 --> We connect to a database and on that database we get for example information on a company - we pair that by using the already existent intelligence in the LLM + the specific information we give him to get more precise answers
+
+While using a model always keep the "temperature" of the model at 0 for data analysis because we only want facts no creativity
+
